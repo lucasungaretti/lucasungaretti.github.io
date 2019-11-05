@@ -45,11 +45,11 @@
 /*---Slider---*/
 #slider
 {
-  width:100%;
+  width:50%;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
-.carousel-inner img {
-  margin: auto;
-}
+
 .carousel-caption
 {
   top:50%;
@@ -240,12 +240,6 @@ profile-pic
 {
   transition: 0.5s;
 }
-
-
-
-
-
-
 
 
 /*---Social---*/
