@@ -1,17 +1,22 @@
 body{
-  background-color: deepskyblue;
+  font-family: sans-serif;
 }
-
-.mapdiv{
-  width: 100%;
-  margin: 20px;
-  overflow: hidden;
-
+.gallery{
+  margin: 10px 50px;
 }
-
-.mapdiv path{
-  fill: #24733f;
-  stroke: #ffffff;
-  stroke-width: 1px;
-  transition: fill 0.3s;
+.gallery img{
+  width: 230px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+.gallery img:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+.column{
+  float:left;
+}
+.h4{
+  font-size: 16;
 }

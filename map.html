@@ -5,13 +5,16 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="map.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <script src="js/lightbox-plus-jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Google Map</title>
+  <title>Lucas Ungaretti</title>
   <style>
     #map{
       height:600px;
@@ -48,21 +51,21 @@
             <li class="nav-item">
               <a class="nav-link" href="./work.html">Work</a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
               <a class="nav-link" href="./projects.html">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./extra-curriculars.html">Extra-Curriculars</a>
-            </li>
+            </li>-->
             <li class="nav-item">
               <a class="nav-link" href="./onesecond.html">One Second</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">World Map</a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
               <a class="nav-link" href="./linkedin.html">LinkedIn</a>
-            </li>
+            </li>-->
             <li class="nav-item">
               <a class="nav-link" href="./index.html#team">Contact Me</a>
             </li>
@@ -71,7 +74,40 @@
       </nav>
     </section>
 
-  <h1> World Map</h1>
+  <h1> Travel</h1>
+
+  <div class="gallery">
+    <div class="column">
+      <h4>Peru</h4>
+      <a href= "./peru.html"><img src="img/peruicon.JPG" height='172'></a>
+    </div>
+    <div class="column">
+      <h4>Norway</h4>
+      <a href= "img/norwayicon.JPG" data-lightbox="mygallery"><img src="img/norwayicon.JPG" height='172'></a>
+    </div>
+    <div class="column">
+      <h4>California</h4>
+      <a href= "img/californiaicon.JPG" data-lightbox="mygallery"><img src="img/californiaicon.JPG" height='172'></a>
+    </div>
+    <div class="column">
+      <h4>Croatia</h4>
+      <a href= "img/croatiaicon.JPG" data-lightbox="mygallery"><img src="img/croatiaicon.JPG" height='172'></a>
+    </div>
+    <div class="column">
+      <h4>quebec</h4>
+      <a href= "img/quebecicon.JPG" data-lightbox="mygallery"><img src="img/quebecicon.JPG" height='172'></a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
   <div id="map"></div>
   <script>
     function initMap(){
@@ -89,147 +125,147 @@
       {
         //Ontario
         coords:{lat:51.2538,lng:-85.3232},
-        content:"<div style='float:left'><img src='img/tor.jpg' width='60' height='100'></div><div style='float:right;padding:10px;'><b>Ontario</b><br/>Canada</br>1998-1999, 2010-2019</div>"
+        content:"<div style='float:left'><img src='img/tor.JPG' width='60' height='100'></div><div style='float:right;padding:10px;'><b>Ontario</b><br/>Canada</br>1998-1999, 2010-2019</div>"
       },
       {
         //Quebec
         coords:{lat:52.9399,lng:-73.5491},
-        content:"<div style='float:left'><img src='img/quebecicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Quebec</b></br>Canada</br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17865451318556912/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/quebecicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Quebec</b></br>Canada</br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17865451318556912/'>view pictures</a></div>"
       },
       {
         //New Brunswick
         coords:{lat:46.5653,lng:-66.4619},
-        content:"<div style='float:left'><img src='img/newbrunswickicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>New Brunswick</b></br>Canada</br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17888984482439102/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/newbrunswickicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>New Brunswick</b></br>Canada</br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17888984482439102/'>view pictures</a></div>"
       },
       {
         //Nova Scotia
         coords:{lat:44.6820,lng:-63.7443},
-        content:"<div style='float:left'><img src='img/novascotiaicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Nova Scotia</b></br>Canada</br>2017</br></br><a href='https://www.instagram.com/stories/highlights/18114571819052533/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/novascotiaicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Nova Scotia</b></br>Canada</br>2017</br></br><a href='https://www.instagram.com/stories/highlights/18114571819052533/'>view pictures</a></div>"
       },
       {
         //PEI
         coords:{lat:46.5107,lng:-63.4168},
-        content:"<div style='float:left'><img src='img/peiicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>P.E.I</b></br>Canada</br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17855785495616233/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/peiicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>P.E.I</b></br>Canada</br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17855785495616233/'>view pictures</a></div>"
       },
       {
         //New York
         coords:{lat:43.2994,lng:-74.2179},
-        content:"<div style='float:left'><img src='img/newyorkicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>New York</b></br>USA</br>2012, 2016</br></br><a href='https://www.instagram.com/stories/highlights/17996662498000643/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/newyorkicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>New York</b></br>USA</br>2012, 2016</br></br><a href='https://www.instagram.com/stories/highlights/17996662498000643/'>view pictures</a></div>"
       },
       {
         //Massachusetts
         coords:{lat:42.4072,lng:-71.3824},
-        content:"<div style='float:left'><img src='img/massachusettsicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Massachusetts</b></br>USA</br>2013</br></br><a href='https://www.instagram.com/stories/highlights/17968331530178446/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/massachusettsicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Massachusetts</b></br>USA</br>2013</br></br><a href='https://www.instagram.com/stories/highlights/17968331530178446/'>view pictures</a></div>"
       },
       {
         //DC
         coords:{lat:38.9072,lng:-77.0369},
-        content:"<div style='float:left'><img src='img/dcicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Washington, DC</b></br>USA</br>2014</br></br><a href='https://www.instagram.com/stories/highlights/17934405790221847/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/dcicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Washington, DC</b></br>USA</br>2014</br></br><a href='https://www.instagram.com/stories/highlights/17934405790221847/'>view pictures</a></div>"
       },
       {
         //Florida
         coords:{lat:27.6648,lng:-81.5158},
-        content:"<div style='float:left'><img src='img/floridaicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Florida</b></br>USA</br>2015</br></br><a href='https://www.instagram.com/stories/highlights/17983445284101060/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/floridaicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Florida</b></br>USA</br>2015</br></br><a href='https://www.instagram.com/stories/highlights/17983445284101060/'>view pictures</a></div>"
       },
       {
         //Illinois
         coords:{lat:40.6331,lng:-89.3985},
-        content:"<div style='float:left'><img src='img/illinoisicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Illinois</b></br>USA</br>2016</br></br><a href='https://www.instagram.com/stories/highlights/17866932712295225/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/illinoisicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Illinois</b></br>USA</br>2016</br></br><a href='https://www.instagram.com/stories/highlights/17866932712295225/'>view pictures</a></div>"
       },
       {
         //Arizona
         coords:{lat:34.0489,lng:-111.0937},
-        content:"<div style='float:left'><img src='img/arizonaicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Arizona</b></br>USA</br>2015</br></br><a href='https://www.instagram.com/stories/highlights/17975135191082033/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/arizonaicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Arizona</b></br>USA</br>2015</br></br><a href='https://www.instagram.com/stories/highlights/17975135191082033/'>view pictures</a></div>"
       },
       {
         //Nevada
         coords:{lat:38.8026,lng:-116.4194},
-        content:"<div style='float:left'><img src='img/nevadaicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Nevada</b></br>USA</br>2015</br></br><a href='https://www.instagram.com/stories/highlights/17997023770040638/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/nevadaicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Nevada</b></br>USA</br>2015</br></br><a href='https://www.instagram.com/stories/highlights/17997023770040638/'>view pictures</a></div>"
       },
       {
         //California
         coords:{lat:36.7783,lng:-119.4179},
-        content:"<div style='float:left'><img src='img/californiaicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>California</b></br>USA</br>2015, 2018</br></br><a href='https://www.instagram.com/stories/highlights/17865451318556912/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/californiaicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>California</b></br>USA</br>2015, 2018</br></br><a href='https://www.instagram.com/stories/highlights/17865451318556912/'>view pictures</a></div>"
       },
       {
         //Mexico
         coords:{lat:23.6345,lng:-102.5528},
-        content:"<div style='float:left'><img src='img/mexicoicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Mexico</b></br>2019</br></br><a href='https://www.instagram.com/stories/highlights/17997023770040638/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/mexicoicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Mexico</b></br>2019</br></br><a href='https://www.instagram.com/stories/highlights/17997023770040638/'>view pictures</a></div>"
       },
       {
         //Nicaragua
         coords:{lat:12.8654,lng:-85.2072},
-        content:"<div style='float:left'><img src='img/nicaraguaicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Nicaragua</b></br>2016</br></br><a href='https://www.instagram.com/stories/highlights/17996736673043335/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/nicaraguaicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Nicaragua</b></br>2016</br></br><a href='https://www.instagram.com/stories/highlights/17996736673043335/'>view pictures</a></div>"
       },
       {
         //Costa Rica
         coords:{lat:9.7489,lng:-83.7534},
-        content:"<div style='float:left'><img src='img/costaricaicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Costa Rica</b></br>2016</br></br><a href='https://www.instagram.com/stories/highlights/17980075315125543/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/costaricaicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Costa Rica</b></br>2016</br></br><a href='https://www.instagram.com/stories/highlights/17980075315125543/'>view pictures</a></div>"
       },
       {
         //Cuba
         coords:{lat:21.5218,lng:-77.7812},
-        content:"<div style='float:left'><img src='img/cubaicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Cuba</b></br>2013, 2017</br></br><a href='https://www.instagram.com/stories/highlights/17866252699547719/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/cubaicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Cuba</b></br>2013, 2017</br></br><a href='https://www.instagram.com/stories/highlights/17866252699547719/'>view pictures</a></div>"
       },
       {
         //Dominican
         coords:{lat:18.7357,lng:-70.1627},
-        content:"<div style='float:left'><img src='img/dominicanicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Dominican Republic</b></br>2015</br></br><a href='https://www.instagram.com/stories/highlights/17975260444089256/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/dominicanicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Dominican Republic</b></br>2015</br></br><a href='https://www.instagram.com/stories/highlights/17975260444089256/'>view pictures</a></div>"
       },
       {
         //Brazil
         coords:{lat:-14.2350,lng:-51.9253},
-        content:"<div style='float:left'><img src='img/brazilicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Brazil</b></br>1999-2010</br></br><a href='https://www.instagram.com/stories/highlights/17997023770040638/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/brazilicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Brazil</b></br>1999-2010</br></br><a href='https://www.instagram.com/stories/highlights/17997023770040638/'>view pictures</a></div>"
       },
       {
         //Argentina
         coords:{lat:-38.4161,lng:-63.6167},
-        content:"<div style='float:left'><img src='img/argentinaicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Argentina</b></br>2008, 2017</br></br><a href='https://www.instagram.com/stories/highlights/17969805019130837/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/argentinaicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Argentina</b></br>2008, 2017</br></br><a href='https://www.instagram.com/stories/highlights/17969805019130837/'>view pictures</a></div>"
       },
       {
         //Chile
         coords:{lat:-35.6751,lng:-71.5430},
-        content:"<div style='float:left'><img src='img/chileicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Chile</b></br>2019</br></br><a href='https://www.instagram.com/stories/highlights/17997023770040638/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/chileicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Chile</b></br>2019</br></br><a href='https://www.instagram.com/stories/highlights/17997023770040638/'>view pictures</a></div>"
       },
       {
         //Paraguay
         coords:{lat:-23.4425,lng:-58.4438},
-        content:"<div style='float:left'><img src='img/paraguayicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Paraguay</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17997181240001894/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/paraguayicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Paraguay</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17997181240001894/'>view pictures</a></div>"
       },
       {
         //Uruguay
         coords:{lat:-32.5228,lng:-55.7658},
-        content:"<div style='float:left'><img src='img/uruguayicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Uruguay</b></br>2007</br></br><a href='https://www.instagram.com/stories/highlights/17997023770040638/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/uruguayicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Uruguay</b></br>2007</br></br><a href='https://www.instagram.com/stories/highlights/17997023770040638/'>view pictures</a></div>"
       },
       {
         //Peru
         coords:{lat:-9.1900,lng:-75.0152},
-        content:"<div style='float:left'><img src='img/peruicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Peru</b></br>2019</br></br><a href='https://www.instagram.com/stories/highlights/17997023770040638/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/peruicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Peru</b></br>2019</br></br><a href='https://www.instagram.com/stories/highlights/17997023770040638/'>view pictures</a></div>"
       },
       {
         //Bolivia
         coords:{lat:-16.2902,lng:-63.5887},
-        content:"<div style='float:left'><img src='img/boliviaicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Bolivia</b></br>2019</br></br><a href='https://www.instagram.com/stories/highlights/17997023770040638/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/boliviaicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Bolivia</b></br>2019</br></br><a href='https://www.instagram.com/stories/highlights/17997023770040638/'>view pictures</a></div>"
       },
       {
         //Portugal
         coords:{lat:39.3999,lng:-8.2245},
-        content:"<div style='float:left'><img src='img/portugalicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Portugal</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17998938340048731/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/portugalicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Portugal</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17998938340048731/'>view pictures</a></div>"
       },
       {
         //Spain
         coords:{lat:40.4637,lng:-3.7492},
-        content:"<div style='float:left'><img src='img/spainicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Spain</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17865385759557112/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/spainicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Spain</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17865385759557112/'>view pictures</a></div>"
       },
       {
         //France
         coords:{lat:46.2276,lng:2.2137},
-        content:"<div style='float:left'><img src='img/franceicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>France</b></br>2005, 2017</br></br><a href='https://www.instagram.com/stories/highlights/18107792368065848/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/franceicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>France</b></br>2005, 2017</br></br><a href='https://www.instagram.com/stories/highlights/18107792368065848/'>view pictures</a></div>"
       },
       {
         //Monaco
         coords:{lat:43.7384,lng:7.4246},
-        content:"<div style='float:left'><img src='img/monacoicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Monaco</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17868821035525479/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/monacoicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Monaco</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17868821035525479/'>view pictures</a></div>"
       },
       {
         //Italy
@@ -244,87 +280,87 @@
       {
         //Switzerland
         coords:{lat:46.8182,lng:8.2275},
-        content:"<div style='float:left'><img src='img/switzerlandicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Switzerland</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17937620602202779/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/switzerlandicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Switzerland</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17937620602202779/'>view pictures</a></div>"
       },
       {
         //UK
         coords:{lat:54.013176,lng:-2.3252278},
-        content:"<div style='float:left'><img src='img/ukicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>UK</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17999821081043405/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/ukicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>UK</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17999821081043405/'>view pictures</a></div>"
       },
       {
         //Belgium
         coords:{lat:50.5039,lng:4.4699},
-        content:"<div style='float:left'><img src='img/belgiumicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Belgium</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17880195427282911/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/belgiumicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Belgium</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17880195427282911/'>view pictures</a></div>"
       },
       {
         //Netherlands
         coords:{lat:52.1326,lng:5.2913},
-        content:"<div style='float:left'><img src='img/netherlandsicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Netherlands</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/18081051241184457/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/netherlandsicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Netherlands</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/18081051241184457/'>view pictures</a></div>"
       },
       {
         //Luxembourg
         coords:{lat:49.6116,lng:6.1319},
-        content:"<div style='float:left'><img src='img/luxembourgicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Luxembourg</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17982773923103491/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/luxembourgicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Luxembourg</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17982773923103491/'>view pictures</a></div>"
       },
       {
         //Germany
         coords:{lat:51.1657,lng:10.4515},
-        content:"<div style='float:left'><img src='img/germanyicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Germany</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17997170833001592/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/germanyicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Germany</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17997170833001592/'>view pictures</a></div>"
       },
       {
         //Liechtenstein
         coords:{lat:47.1660,lng:9.5554},
-        content:"<div style='float:left'><img src='img/liechtensteinicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Liechtenstein</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17999479591001796/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/liechtensteinicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Liechtenstein</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17999479591001796/'>view pictures</a></div>"
       },
       {
         //Austria
         coords:{lat:47.5162,lng:14.5501},
-        content:"<div style='float:left'><img src='img/austriaicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Austria</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17996879740016903/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/austriaicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Austria</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17996879740016903/'>view pictures</a></div>"
       },
       {
         //Slovenia
         coords:{lat:46.1512,lng:14.9955},
-        content:"<div style='float:left'><img src='img/sloveniaicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Slovenia</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17907283708252251/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/sloveniaicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Slovenia</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17907283708252251/'>view pictures</a></div>"
       },
       {
         //Croatia
         coords:{lat:45.1000,lng:15.2000},
-        content:"<div style='float:left'><img src='img/croatiaicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Croatia</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17975757397085873/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/croatiaicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Croatia</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17975757397085873/'>view pictures</a></div>"
       },
       {
         //Hungary
         coords:{lat:47.1625,lng:19.5033},
-        content:"<div style='float:left'><img src='img/hungaryicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Hungary</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17990253382074020/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/hungaryicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Hungary</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17990253382074020/'>view pictures</a></div>"
       },
       {
         //Slovakia
         coords:{lat:48.6690,lng:19.6990},
-        content:"<div style='float:left'><img src='img/slovakiaicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Slovakia</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17998105174032192/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/slovakiaicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Slovakia</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17998105174032192/'>view pictures</a></div>"
       },
       {
         //Czechia
         coords:{lat:49.8175,lng:15.4730},
-        content:"<div style='float:left'><img src='img/czechiaicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Czechia</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17961356482175901/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/czechiaicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Czechia</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17961356482175901/'>view pictures</a></div>"
       },
       {
         //Poland
         coords:{lat:51.9194,lng:19.1451},
-        content:"<div style='float:left'><img src='img/polandicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Poland</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17866880518293052/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/polandicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Poland</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17866880518293052/'>view pictures</a></div>"
       },
       {
         //Denmark
         coords:{lat:56.2639,lng:9.5018},
-        content:"<div style='float:left'><img src='img/denmarkicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Denmark</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17971733737138019/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/denmarkicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Denmark</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17971733737138019/'>view pictures</a></div>"
       },
       {
         //Sweden
         coords:{lat:62.2315,lng:16.1932},
-        content:"<div style='float:left'><img src='img/swedenicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Sweden</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17934627448218379/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/swedenicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Sweden</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17934627448218379/'>view pictures</a></div>"
       },
       {
         //Norway
         coords:{lat:60.4720,lng:8.4689},
-        content:"<div style='float:left'><img src='img/norwayicon.jpg' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Norway</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17933272237322226/'>view pictures</a></div>"
+        content:"<div style='float:left'><img src='img/norwayicon.JPG' width='122' height='92'></ div><div style='float:right;padding:10px;'><b>Norway</b></br>2017</br></br><a href='https://www.instagram.com/stories/highlights/17933272237322226/'>view pictures</a></div>"
       }
     ];
 
@@ -362,7 +398,7 @@
     }
   }
   </script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQammK_shOVt6OoHGM2Hx5X3IW_MsexlI&callback=initMap"
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzS646oxXO5J1dEr0khC70ANpmGRv2hIA"
     async defer>
   </script>
 </body>
