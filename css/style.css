@@ -96,7 +96,7 @@
 /*---Pages---*/
 #mypages
 {
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/services.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/services.jpg);
   background-size: cover;
   background-position: center;
   color: #efefef !important;
@@ -285,3 +285,36 @@ profile-pic
   font-size: 12px;
   color: #333;
 }
+
+#courses
+{
+  margin: 50px;
+}
+
+h4{
+  color: #1808cc;
+}
+
+body{
+  font-family: sans-serif;
+}
+.gallery{
+  margin: 10px 50px;
+}
+.gallery img{
+  width: 230px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+.gallery img:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+.column{
+  float:left;
+}
+h5{
+  font-size: 16;
+}
+
